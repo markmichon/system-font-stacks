@@ -4,17 +4,19 @@ A micro utility for using the latest system fonts in your font stacks. Designed 
 
 ## Installation
 
-Coming soon
+`yarn add @markmichon/system-font-stacks`
 
 ## Usage
 
-The following helpers are exposed to retrieve
+Import into your project:
 
-## API
+```js
+import { getSans, getSerif, getMono } from '@markmichon/system-font-stacks'
+```
 
-### getSans and getMono
+The following helpers are exposed to retrieve common system font stacks: `getSans`, `getSerif`, `getMono`.
 
-`getSans` and `getMono` share the same API to get default system stacks, or prepend your own declarations to the list.
+They each share the same API to get default system stacks, or prepend your own declarations to the list.
 
 ```js
 // Get the default system fonts stack
@@ -24,6 +26,9 @@ fontFamily: getSans()
 // Append a single font-family
 fontFamily: getSans('Open Sans')
 //ex. '"Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
+
+fontFamily: getSans(['Open Sans', 'source-serif-var'])
+//ex. '"Open Sans", source-serif-var, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
 ```
 
 ## License
