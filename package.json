@@ -9,6 +9,7 @@
     "access": "public"
   },
   "scripts": {
+    "prebuild": "yarn test",
     "build": "microbundle",
     "test": "ava",
     "test:watch": "ava --watch"
