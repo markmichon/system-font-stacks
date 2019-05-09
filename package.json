@@ -1,0 +1,30 @@
+{
+  "name": "@markmichon/system-font-stacks",
+  "version": "0.0.0",
+  "description": "Utilities for including the latest system font stack in your styles.",
+  "author": "Mark Michon <hello@markmichon.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "microbundle",
+    "test": "ava",
+    "test:watch": "ava --watch"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "esm": "^3.2.22",
+    "microbundle": "^0.11.0"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "source": "src/index.js",
+  "main": "dist/system-font-stacks.js",
+  "module": "dist/system-font-stacks.mjs",
+  "unpkg": "dist/system-font-stacks.umd.js"
+}
