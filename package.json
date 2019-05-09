@@ -5,6 +5,7 @@
   "author": "Mark Michon <hello@markmichon.com>",
   "license": "MIT",
   "private": false,
+  "repository": "markmichon/system-font-stacks",
   "publishConfig": {
     "access": "public"
   },
