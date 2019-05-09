@@ -1,6 +1,6 @@
 {
   "name": "@markmichon/system-font-stacks",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Utilities for including the latest system font stack in your styles.",
   "author": "Mark Michon <hello@markmichon.com>",
   "license": "MIT",
