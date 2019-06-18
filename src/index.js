@@ -7,6 +7,8 @@ const sans = [
   'sans-serif',
 ]
 
+const serif = ['Georgia', 'Cambria', 'Times New Roman', 'times', 'serif']
+
 const emoji = ['Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol']
 
 const mono = [
@@ -17,8 +19,6 @@ const mono = [
   'Courier',
   'monospace',
 ]
-
-const serif = ['Georgia', 'Cambria', 'Times New Roman', 'times', 'serif']
 
 export const stacks = {
   sans,
