@@ -1,4 +1,4 @@
-# System Font Stacks (WIP)
+# System Font Stacks
 
 A micro utility for using the latest system fonts in your font stacks. Designed for CSS-in-JS libraries.
 
@@ -30,6 +30,15 @@ fontFamily: getSans('Open Sans')
 fontFamily: getSans(['Open Sans', 'source-serif-var'])
 //ex. '"Open Sans", source-serif-var, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
 ```
+
+## Contributing
+
+Issues and PRs welcome! If you'd like to see a new typeface added to any of the default lists or have an idea for useful improvements to the API, [open an issue](https://github.com/markmichon/system-font-stacks/issues/new).
+
+## Inspiration
+
+- [System Font Stack - CSS Tricks](https://css-tricks.com/snippets/css/system-font-stack/)
+- [Shipping system fonts to github.com - @mdo](http://markdotto.com/2018/02/07/github-system-fonts/)
 
 ## License
 
