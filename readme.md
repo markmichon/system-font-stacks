@@ -1,6 +1,6 @@
 # System Font Stacks
 
-A micro utility for using the latest system fonts in your font stacks. Designed for CSS-in-JS libraries.
+A micro utility for using the latest system fonts in your font stacks. Designed for CSS-in-JS libraries. It does not add new typefaces to your project, but instead acts as an easy way to write a font stack string without the need to keep track of current "system stack" trends.
 
 ## Installation
 
