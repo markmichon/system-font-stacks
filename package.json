@@ -10,9 +10,7 @@
     "access": "public"
   },
   "scripts": {
-    "prebuild": "yarn test",
     "build": "microbundle",
-    "prepublish": "yarn run build",
     "test": "ava",
     "test:watch": "ava --watch"
   },
